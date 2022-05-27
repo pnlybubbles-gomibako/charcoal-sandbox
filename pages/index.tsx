@@ -2,6 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { Icon } from '@charcoal-ui/react'
+import '@charcoal-ui/icons'
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +18,11 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+
+        <div>
+          <pixiv-icon name='16/Add'></pixiv-icon>
+          <Icon name='16/Add'></Icon>
+        </div>
 
         <p className={styles.description}>
           Get started by editing{' '}

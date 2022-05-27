@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@charcoal-ui/icons": "alpha",
+    "@charcoal-ui/react": "alpha",
     "next": "12.1.5",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react": "^18.1.0",
+    "react-dom": "18.0.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@types/node": "17.0.25",
@@ -20,5 +23,9 @@
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.5",
     "typescript": "4.6.3"
+  },
+  "packageManager": "yarn@4.0.0-rc.6",
+  "resolutions": {
+    "@charcoal-ui/icons": "portal:/Users/pnly/Workspace/charcoal/packages/icons"
   }
 }
